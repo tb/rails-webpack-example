@@ -1,24 +1,22 @@
-# README
+# Rails5 Webpack
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example [webpack-rails](https://github.com/mipearson/webpack-rails) project
 
-Things you may want to cover:
+## Installing
 
-* Ruby version
+    bundle
+    cd frontend
+    npm i
 
-* System dependencies
+[Upgrading frontend packages](https://www.npmjs.com/package/npm-check-updates)
 
-* Configuration
+## Development
 
-* Database creation
+    rails s
+    cd frontend
+    npm start
 
-* Database initialization
+## Production 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    RAILS_ENV=production rails s
+    npm run build:prod
