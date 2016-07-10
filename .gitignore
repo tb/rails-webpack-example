@@ -22,3 +22,8 @@
 
 # Ignore Rubymine
 .idea
+
+# Frontend
+public/webpack
+node_modules
+npm-debug.log
